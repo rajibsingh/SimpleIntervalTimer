@@ -9,11 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        var timer = Person(name: "frank", age: 10)
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("click me") {
+                print("clicked!")
+                timer.greet()
+            }
+            .foregroundColor(.green)
         }
         .padding()
     }

@@ -14,6 +14,7 @@
 		8931CD1A2B154AB9004F3F85 /* SimpleIntervalTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931CD192B154AB9004F3F85 /* SimpleIntervalTimerTests.swift */; };
 		8931CD242B154AB9004F3F85 /* SimpleIntervalTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931CD232B154AB9004F3F85 /* SimpleIntervalTimerUITests.swift */; };
 		8931CD262B154AB9004F3F85 /* SimpleIntervalTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931CD252B154AB9004F3F85 /* SimpleIntervalTimerUITestsLaunchTests.swift */; };
+		8931CD332B154B33004F3F85 /* IntervalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931CD322B154B33004F3F85 /* IntervalTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8931CD1F2B154AB9004F3F85 /* SimpleIntervalTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleIntervalTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8931CD232B154AB9004F3F85 /* SimpleIntervalTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleIntervalTimerUITests.swift; sourceTree = "<group>"; };
 		8931CD252B154AB9004F3F85 /* SimpleIntervalTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleIntervalTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8931CD322B154B33004F3F85 /* IntervalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8931CD082B154AB8004F3F85 /* SimpleIntervalTimerApp.swift */,
 				8931CD0A2B154AB8004F3F85 /* ContentView.swift */,
+				8931CD322B154B33004F3F85 /* IntervalTimer.swift */,
 				8931CD0C2B154AB9004F3F85 /* Assets.xcassets */,
 				8931CD0E2B154AB9004F3F85 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				8931CD0B2B154AB8004F3F85 /* ContentView.swift in Sources */,
 				8931CD092B154AB8004F3F85 /* SimpleIntervalTimerApp.swift in Sources */,
+				8931CD332B154B33004F3F85 /* IntervalTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
