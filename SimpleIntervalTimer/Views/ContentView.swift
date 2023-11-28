@@ -12,22 +12,22 @@ struct ContentView: View {
     
     var body: some View {
         
-        var timer = Person(name: "frank", age: 10)
         
         VStack {
-            
             HStack {
                 Text(textFieldValue)
                     .font(.title)
                 Button("click me") {
                     print("clicked!")
-                    timer.greet()
                     textFieldValue = "hoo boy"
                 }
                 .foregroundColor(.green)
             }
+            .padding()
+            .border(Color.gray)
         }
         .padding()
+        
     }
 }
 
